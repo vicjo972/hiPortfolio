@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Navbar from '../components/navbar'
 import MainHeader from '../components/mainheader'
 import ScrollMarker from '../components/scrollMarker';
-import CodeBlock from '../components/codeBlock';
+import CodeBlock from '../components/CodeBlock';
 
 export default function Home() {
   return (

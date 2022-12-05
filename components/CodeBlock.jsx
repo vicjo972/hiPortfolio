@@ -3,7 +3,7 @@ import Typed from 'typed.js'
 import { useEffect, useRef } from "react";
 
 
-export default function codeBlock() {
+export default function CodeBlock() {
     const TypedElement = useRef(null);
 
     useEffect(() => {
