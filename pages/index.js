@@ -9,11 +9,12 @@ export default function Home() {
     <>
       <Head>
         <title>Home App</title>
+        
       </Head>
 
       <Navbar />
 
-      <div class="flex flex-col h-screen -mt-28">
+      <div class="flex flex-col h-screen -mt-28 bg-charlie-brown">
 
         <div class="flex-grow">
           <MainHeader />
@@ -23,8 +24,11 @@ export default function Home() {
         </div>
       </div>
 
-      <div id="about" class="h-screen">
-        <CodeBlock />
+      <div id="about" class="h-screen flex justify-center items-center">
+        <div class="w-6/12 h-4/6">
+          <CodeBlock />
+        </div>
+        
       </div>
 
       <div id="projects" class="h-screen">

@@ -13,6 +13,10 @@ module.exports = {
         portfolioBlue: {
           50: '#0E0E17',
         }
+      },
+      backgroundImage: {
+        'texture': "url('/img/texture.svg')",
+        'charlie-brown': "url('/img/charlie-brown.svg')",
       }
     },
   },
