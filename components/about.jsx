@@ -11,16 +11,11 @@ export default function About() {
                     </p>
                 </div>
                 <div class="col-span-4 flex items-center justify-end">
-                    <Image src="/porträtt.jpg"
-                        alt="Picture of the Victor"
-                        width="250"
-                        height="300"
-                        class="rounded-md">
-                    </Image>
+                    <Image src="/porträtt.jpg" alt="Picture of the Victor" width="250" height="300" class="rounded-md"/>
                 </div>
                 <div class="col-span-12">
                     <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold mt-6">
-                        some technologies i&apos;ve worked with:
+                        some tools i&apos;ve worked with:
                     </h3>
                 </div>
                 <div class="col-span-12">

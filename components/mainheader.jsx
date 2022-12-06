@@ -8,7 +8,7 @@ export default function MainHeader() {
                 Hi, I&apos;m Victor.
             <Typewriter 
                 options={{
-                    strings: ['Fullstack dev💻', 'UX-designer🎨', 'Tech Nerd😎'],
+                    strings: ['Fullstack dev', 'UX-designer', 'Tech Nerd😎'],
                     autoStart: true,
                     delay: 80,
                     loop: true,

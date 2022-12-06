@@ -27,7 +27,7 @@ export default function CodeBlock() {
 
     return (
         <div class="mt-12">
-            <pre><code class="text-2xl min-w-full" ref={TypedElement}>
+            <pre><code class="text-xs sm:text-2xl min-w-full" ref={TypedElement}>
                 { }
             </code></pre>
 

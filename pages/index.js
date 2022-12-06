@@ -33,7 +33,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div id="projects" class="h-screen flex justify-center items-center bg-portfolioBlue-50">
+      <div id="projects" class=" flex justify-center items-center bg-portfolioBlue-50">
         <div class="w-9/12 h-full">
           <h2 class="text-4xl sm:text-5xl lg:text-7xl font-bold mt-28">
             projects
