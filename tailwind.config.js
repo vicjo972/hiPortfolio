@@ -16,7 +16,6 @@ module.exports = {
       },
       backgroundImage: {
         'texture': "url('/img/texture.svg')",
-        'charlie-brown': "url('/img/charlie-brown.svg')",
       }
     },
   },

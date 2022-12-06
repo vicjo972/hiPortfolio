@@ -9,9 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fullpage/react-fullpage": "^0.1.31",
     "@heroicons/react": "^2.0.13",
     "eslint": "8.28.0",
     "eslint-config-next": "13.0.5",
+    "framer-motion": "^7.6.19",
     "highlight.js": "^11.7.0",
     "i": "^0.3.7",
     "next": "13.0.5",

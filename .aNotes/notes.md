@@ -10,8 +10,8 @@ project for creating a personal portfolio using nextjs and tailwind, deployed wi
 - [x] hi im victor
 - [x] scroll button
 - [ ] implement nice scroll
-- [ ] code snippet effect on about me
+- [x] code snippet effect on contact page
 - [ ] about me chapter
 - [ ] project card
-- [ ] contact me code snippet
+- [x] contact me code snippet
  
