@@ -25,7 +25,7 @@ export default function About() {
                 </div>
                 <div class="col-span-12">
                     <div class="grid grid-cols-12 gap-4 mt-4">
-                        <div class="col-span-2 flex justify-center items-center">
+                        <div class="col-span-2 flex justify-center items-center animate-spin-slow">
                             <Image
                                 src="/react-2.svg"
                                 alt="react.js"

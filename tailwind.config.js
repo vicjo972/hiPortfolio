@@ -16,6 +16,9 @@ module.exports = {
       },
       backgroundImage: {
         'texture': "url('/img/texture.svg')",
+      },
+      animation: {
+        'spin-slow': 'spin 10s linear infinite',
       }
     },
   },
