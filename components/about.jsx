@@ -19,17 +19,17 @@ export default function About() {
                     </Image>
                 </div>
                 <div class="col-span-12">
-                    <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold">
-                        some technologies i&apos;ve used:
+                    <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold mt-6">
+                        some technologies i&apos;ve worked with:
                     </h3>
                 </div>
                 <div class="col-span-12">
-                    <div class="grid grid-cols-12 gap-4">
+                    <div class="grid grid-cols-12 gap-4 mt-4">
                         <div class="col-span-2 flex justify-center items-center">
                             <Image
                                 src="/react-2.svg"
                                 alt="react.js"
-                                width="100"
+                                width="90"
                                 height="300"
                             >
                             </Image>
@@ -47,7 +47,16 @@ export default function About() {
                             <Image
                                 src="/typescriptabbrlogo.svg"
                                 alt="typescript"
-                                width="100"
+                                width="80"
+                                height="300"
+                            >
+                            </Image>
+                        </div>
+                        <div class="col-span-2 flex justify-center items-center">
+                            <Image
+                                src="/sqlitelogo.svg"
+                                alt="sqlite"
+                                width="160"
                                 height="300"
                             >
                             </Image>
@@ -56,20 +65,12 @@ export default function About() {
                             <Image
                                 src="/flasklogo.svg"
                                 alt="flask"
-                                width="100"
+                                width="80"
                                 height="300"
                             >
                             </Image>
                         </div>
-                        <div class="col-span-2 flex justify-center items-center">
-                            <Image
-                                src="/Node.js_logo.svg"
-                                alt="node.js"
-                                width="150"
-                                height="300"
-                            >
-                            </Image>
-                        </div>
+
                         <div class="col-span-2 flex justify-center items-center">
                             <Image
                                 src="/figma-5 (1).svg"
