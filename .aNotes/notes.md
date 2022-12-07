@@ -16,4 +16,5 @@ project for creating a personal portfolio using nextjs and tailwind, deployed wi
 - [ ] project card
 - [x] contact me code snippet
 - [ ] make responsive on mobile and smaller screen sizes
+- [ ] create firebase database and test a route :) 
  

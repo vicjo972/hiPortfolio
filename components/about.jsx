@@ -1,17 +1,34 @@
-import Image from 'next/image'
-
+import Image from 'next/image';
+import { useCollection, useDocument} from "react-firebase-hooks/firestore";
+import { doc } from 'firebase/firestore';
+import { app, fireStore } from '../firebase/clientApp';
 
 export default function About() {
+  
+    const [description, loading, error] = useDocument(
+        doc(fireStore, 'info', 'aboutMe'),
+        {
+            snapshotListenOptions: { includeMetadataChanges: true },
+        }
+    );
+
+    let text;
+
+    if (!loading && description) {
+        text = description.data().description
+    }
+    
+
     return (
         <>
             <div class="grid grid-cols-12 gap-4  mt-10">
                 <div class="col-span-8">
-                    <p class="text-md sm:text-lg lg:text-lg">
-                        I&apos;ve loved technology my whole life, from playing video games and learning to write python pig latin translators in primary school, building computers in high school, and studying engineering at Linköping university. I am both intrigued and excited about all kinds of tech, but as I&apos;m graduating from university in 2023 I know that I want to build great software products for a living. I have project experience in frontend and backend development, and I&apos;ve done my fair share of statistical data analysis in Matlab. I want to help build the software of tomorrow.
-                    </p>
+                    <span class="text-md sm:text-lg lg:text-lg">
+                        {text}
+                    </span>
                 </div>
                 <div class="col-span-4 flex items-center justify-end">
-                    <Image src="/porträtt.jpg" alt="Picture of the Victor" width="250" height="300" class="rounded-md"/>
+                    <Image src="/porträtt.jpg" alt="Picture of the Victor" width="250" height="300" class="rounded-md" />
                 </div>
                 <div class="col-span-12">
                     <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold mt-6">
